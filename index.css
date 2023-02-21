@@ -13,6 +13,7 @@ h2 {
   margin: 7% 0;
   font-size: 2.3rem;
   background: -webkit-linear-gradient(rgb(14, 207, 221), rgb(72, 34, 121));
+  background-clip: unset;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -111,6 +112,7 @@ form {
   font-size: 2rem;
   color: black;
   background: -webkit-linear-gradient(rgb(94, 215, 231), rgb(98, 8, 216));
+  background-clip: unset;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
