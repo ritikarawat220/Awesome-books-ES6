@@ -18,7 +18,7 @@
 
 # 📖 Awesome Book<a name="about-project"></a>
 <table>
-  <td style="border: 1px solid black;"><img src="/images/addbook.png" alt="Awesomebook" width="340"  height="270" /></td>
+  <td style="border: 1px solid black;"><img src="/images/addbook.png" alt="Awesomebook" /></td>
   </table>
 
 **Awesome books** An application for adding and removing books that highlights the use of ES6. 
