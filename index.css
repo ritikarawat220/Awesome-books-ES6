@@ -1,6 +1,9 @@
 body {
   padding: 0;
   margin: 0;
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 110vh;
 }
 
 header {
@@ -45,6 +48,19 @@ section {
 
 .Book__section-item {
   width: 200px;
+  font-size: 18px;
+}
+
+.Book__section:nth-child(odd) {
+  background-color: rgb(209, 208, 208);
+  color: black;
+  box-shadow: 0 35px 50px rgb(0 0 0 / 100%);
+}
+
+.Book__section:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0 15px 30px rgb(0 0 0 / 30%);
 }
 
 .remove-button {
@@ -94,10 +110,10 @@ form {
   padding: 2%;
   background-color: rgb(228, 235, 238);
   border: 2px solid rgb(37, 137, 231);
-  border-radius: 50px;
+  border-radius: 20px;
   flex-direction: column;
   justify-content: center;
-  gap: 4px;
+  gap: 2px;
   width: fit-content;
   margin: 0 auto;
 }
@@ -165,7 +181,7 @@ form {
   width: 100%;
   margin-top: 100px;
   padding: 0 20px;
-  height: 40px;
+  height: 30px;
   border: 2px solid rgb(10, 162, 223);
   position: absolute;
   bottom: 0;
